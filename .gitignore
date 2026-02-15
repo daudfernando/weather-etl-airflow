@@ -1,0 +1,16 @@
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# airflow local
+airflow_home/
+logs/
+
+# docker volumes (kalau ada folder lokal)
+*.log
